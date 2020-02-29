@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-
+Integer max = 12;
 
     public static void main(String[] args) {
         ArrayList<Figura2D> figury = new ArrayList<>();
