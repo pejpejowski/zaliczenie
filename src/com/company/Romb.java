@@ -30,6 +30,6 @@ public class Romb extends Figura2D implements CenaZaM2 {
 
     @Override
     public void wyswietlCene() {
-        System.out.println("Cena prostokąta za 1m^2: "+wezCene());
+        System.out.println("Cena romba za 1m^2: "+wezCene());
     }
 }

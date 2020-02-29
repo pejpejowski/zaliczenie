@@ -13,8 +13,10 @@ public class Main {
         figury.add(new Prostokąt(3,6));
         figury.add(new Trapez (3, 6,12));
         figury.add(new Romb(2,13));
+        figury.add(new Romb(4,13));
+        figury.add(new Kwadrat(12));
 
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; i < 6; i++)
             figury.get(i).wyswietlCene();
 
 
