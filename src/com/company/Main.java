@@ -22,9 +22,11 @@ Integer max = 12;
 
         figury.add(new Trapez(11,3,18));
 
-        for (int i = 0; i < 11; i++)
+        for (int i = 0; i < 11; i++) {
             figury.get(i).wyswietlCene();
+            figury.get(i).evaluateField();
 
+        }
 
 
     }
