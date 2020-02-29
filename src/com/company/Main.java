@@ -18,9 +18,11 @@ public class Main {
         figury.add(new Kwadrat(13));
         figury.add(new Kwadrat(13));
         figury.add(new Kwadrat(40));
+        figury.add(new Kwadrat(11));
 
-        for (int i = 0; i < 9; i++)
+        for (int i = 0; i < 10; i++)
             figury.get(i).wyswietlCene();
+
 
 
     }
