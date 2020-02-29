@@ -20,7 +20,9 @@ public class Main {
         figury.add(new Kwadrat(40));
         figury.add(new Kwadrat(11));
 
-        for (int i = 0; i < 10; i++)
+        figury.add(new Trapez(11,3,18));
+
+        for (int i = 0; i < 11; i++)
             figury.get(i).wyswietlCene();
 
 
