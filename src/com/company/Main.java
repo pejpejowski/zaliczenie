@@ -16,8 +16,9 @@ public class Main {
         figury.add(new Romb(4,13));
         figury.add(new Kwadrat(12));
         figury.add(new Kwadrat(13));
+        figury.add(new Kwadrat(13));
 
-        for (int i = 0; i < 7; i++)
+        for (int i = 0; i < 8; i++)
             figury.get(i).wyswietlCene();
 
 
